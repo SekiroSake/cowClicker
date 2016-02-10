@@ -1,0 +1,23 @@
+</html>
+<!--cow count click-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>cowCount</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div><img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Cow_cartoon_04.svg" onclick="javascript:CowCount()"></div>
+    <script type="text/javascript">
+    var i = 0;
+    function CowCount() {
+        document.getElementById("count").textContent = i++;
+    }
+    </script>
+    <div id="count">0</div>
+    
+</body>
+
+</html>
